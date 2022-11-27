@@ -1,0 +1,192 @@
+
+
+a{
+    text-decoration:none;
+}
+
+  
+li{
+    list-style: none;
+}
+
+
+.linea-contacto-info li a{
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.linea-contacto-info li{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+
+.linea-contacto-info{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    height: 40px;
+    background: #22BCAC; /*Color de la cinta de opciones del  menu*/
+}
+
+.opciones-info li img{
+    padding-right: 10px;
+}
+
+
+.seccion-agenda-tratamiento{
+    margin-top: 40px;
+    width: 100%;
+    height: 90px;
+    background: black;
+    opacity: 0.7;
+    position: sticky;
+}
+
+ 
+.menu-opciones{/*Posicionamiento de opciones de menú*/
+    margin-left: 250px;
+    margin-top: 20px;
+    transition:all 0.7s;
+} 
+
+
+
+.menu-opciones ul{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+.submnu-tratamientos{
+    position: relative;
+    width: 90px;
+    height: 210px;
+    background: red;
+    top: 330px;
+    left: 150px;
+    display: none; 
+    z-index: 1;
+}
+.submenu-tratamientos{
+    display: none;
+}
+
+.menu-opciones:hover>.submenu-tratamientos{
+    display: block;  
+}
+
+
+.seccion-agenda-tratamiento .menu-opciones:hover>.submenu-tratamientos li{
+    display: block;
+}
+
+  
+  
+.menu-opciones .submenu-tratamientos li{
+    position: relative;
+    top:75px;
+    left: -370px;
+    right:  555px;
+    width: 250px;
+    line-height: 1px;
+    background: green;
+    overflow: hidden;
+}
+
+.submenu-tratamientos li a{
+    padding: 3px;
+}
+
+.menu-opciones .submenu-tratamientos:hover>li a{
+    color:#22BCAC;
+}
+
+
+.menu-opciones li:hover>a{
+    color:white; 
+}
+
+
+
+
+.logo-velinta{
+    width: 170px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.seccion-agenda-tratamiento ul{
+    position: relative;
+    padding-left: 550px;
+    top: -75px;
+    
+}
+
+.seccion-agenda-tratamiento li a{
+    color:#22BCAC;/*Color verde usado para las letras*/
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+
+
+ 
+   
+.seccion-agenda-cita .texto-agenda-cita{/*Sección de la opción de "Agenda Una Cita"*/
+    position:absolute;
+    width: 160px;
+    height: 10px;
+    border-radius:20px;
+    text-align: center;
+    align-items: center; 
+    background: #22BCAC;
+    color: black;
+    font-family: bold;
+    transition:all 0.3s;
+}
+
+
+.seccion-agenda-cita:hover>.texto-agenda-cita{
+ background: white;
+ width: 165px;   
+ height: 15px;
+ color: black;
+}
+
+
+
+
+/*SECCIÓN CONOCE A NUESTROS DENTISTAS*/
+
+.seccion-conoce-nuestros-dentistas{
+    width: 100%;
+    height: 300px;
+    background: red;
+}
+
+
+.seccion-conoce-nuestros-dentistas p{
+    text-align: center;
+    font-size: 70px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
